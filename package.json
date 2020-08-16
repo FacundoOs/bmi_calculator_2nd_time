@@ -1,0 +1,19 @@
+{
+  "name": "bmi_calculator_2nd_time",
+  "version": "1.0.0",
+  "description": "bmi",
+  "main": "index.js",
+  "repository": "https://github.com/FacundoOs/bmi_calculator_2nd_time.git",
+  "author": "facundo o",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  },
+  "dependencies": {
+    "superstatic": "^7.0.0"
+  },
+  "scripts": { 
+		"start": "superstatic src --port 3001", 
+		"cy:open": "yarn start & cypress open" 
+	} 
+}
